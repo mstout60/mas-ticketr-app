@@ -11,7 +11,7 @@ function SyncUserWithConvex() {
   const { user } = useUser();
 
   // Update user
-  const updateUser = useMutation(api.user.updateUser);
+  const updateUser = useMutation(api.users.updateUser);
 
   useEffect(() => {
     if (!user) return;
