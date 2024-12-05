@@ -8,12 +8,12 @@ import { useQuery } from "convex/react";
 import { CalendarDays, MapPin, Ticket, Users } from "lucide-react";
 
 import EventCard from "@/components/event-card";
+import JoinQueue from "@/components/join-queue";
 import Spinner from "@/components/spinner";
 import { Button } from "@/components/ui/button";
 import { api } from "@/convex/_generated/api";
 import { Id } from "@/convex/_generated/dataModel";
 import { useStorageUrl } from "@/lib/utils";
-import JoinQueue from "@/components/join-queue";
 
 function EventPage() {
   const { user } = useUser();

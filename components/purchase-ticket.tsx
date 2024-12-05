@@ -7,7 +7,7 @@ import { useUser } from "@clerk/nextjs";
 import { useQuery } from "convex/react";
 import { Ticket } from "lucide-react";
 
-import ReleaseTicket from "@/components/releaseTicket";
+import ReleaseTicket from "@/components/release-ticket";
 import { api } from "@/convex/_generated/api";
 import { Id } from "@/convex/_generated/dataModel";
 
